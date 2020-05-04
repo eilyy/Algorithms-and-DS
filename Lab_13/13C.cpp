@@ -21,8 +21,8 @@ vector<int> prefixFunction(string& s) {
 }
 
 int main() {
-    ifstream fin("search1.in");
-    ofstream fout("search1.out");
+    ifstream fin("prefix.in");
+    ofstream fout("prefix.out");
     string str;
     fin >> str;
     vector<int> result = prefixFunction(str);
